@@ -1,0 +1,8 @@
+management:
+  endpoint:
+    health.enabled: true
+    prometheus.enabled: true
+    loggers.enabled: true
+  endpoints:
+    enabled-by-default: false
+    web.exposure.include: health,loggers,prometheus
